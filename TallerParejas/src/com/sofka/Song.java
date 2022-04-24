@@ -55,5 +55,13 @@ public class Song {
         return description;
     }
 
+
+
+    @Override
+    public String toString() {
+        return "\n" + id + ". " + title + ". " + date + ". " + duration + ". " + genre;
+    }
 }
+
+
 
