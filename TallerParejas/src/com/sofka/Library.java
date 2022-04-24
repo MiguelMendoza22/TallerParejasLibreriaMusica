@@ -5,7 +5,7 @@ import java.util.Collections;
 
 import static com.sofka.Song.*;
 
-public abstract class Library {
+public abstract class Library implements IComparator{
     public ArrayList<Song> songs;
 
     /**
@@ -57,19 +57,19 @@ public abstract class Library {
         filterSongs.stream().filter(song -> song.getGenre().equals(genre)).forEach(System.out::println);
     }
 
-    public void sortByYearAsc() {
+    public void sortDateAsc() {
         Collections.sort(songs, ascendingDateComparator);
     }
 
-    public void sortByYearDesc() {
+    public void sortDateDesc() {
         Collections.sort(songs, descendingDateComparator);
     }
 
-    public void sortByDurationAsc() {
+    public void sortDurationAsc() {
         Collections.sort(songs, ascendingDurationComparator);
     }
 
-    public void sortByDurationDesc() {
+    public void sortDurationDesc() {
         Collections.sort(songs, descendingDurationComparator);
     }
 
