@@ -3,6 +3,9 @@ package com.sofka;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**esta clase permite construir canciones y listas de estas ingresando todos sus atributos  llamando los metodos para  aplicar la funcionalidad.
+tiene las opciones de filtrado por genero y año. ordenamiento de la lista principal ascendente descendente*/
+
 public class MusicLibrary {
 
     public static void main(String[] args) {
