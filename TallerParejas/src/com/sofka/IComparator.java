@@ -3,7 +3,7 @@ package com.sofka;
 import java.util.Comparator;
 
 /**
- * La interface IComparator contiene los métodos para ordenar las canciones
+ * La interface IComparator contiene los métodos para ordenar las canciones de forma ascendente o descendente.
  *
  * @version 1.00.00 2022-04-24
  *

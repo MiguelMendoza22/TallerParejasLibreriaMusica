@@ -2,9 +2,15 @@ package com.sofka;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
-/**esta clase permite construir canciones y listas de estas ingresando todos sus atributos  llamando los metodos para  aplicar la funcionalidad.
-tiene las opciones de filtrado por genero y año. ordenamiento de la lista principal ascendente descendente*/
+/**
+ * La clase MusicLibrary(main) permite construir canciones y listas de estas ingresando todos sus atributos  llamando
+ * los metodos para  aplicar la funcionalidad, tiene las opciones de filtrado por genero y año, ordenamiento de la lista
+ * principal ascendente y descendente.
+ *
+ * @version 1.00.00 2022-04-24
+ *
+ * @author Daniel Romero Cortes.
+**/
 
 public class MusicLibrary {
 

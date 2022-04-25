@@ -3,12 +3,14 @@ package com.sofka;
 import java.util.Comparator;
 
 /**
- * La clase Song contiene los atributos de las canciones.
+ * La clase Song contiene los atributos de las canciones y los métodos para acceder a sus atributos.
  *
  * @version 1.00.00 2022-04-24
  *
  * @author Jesús Miguel Molina Mendoza.
  */
+
+
 public class Song {
 
     private String title;

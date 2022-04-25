@@ -5,6 +5,14 @@ import java.util.Collections;
 
 import static com.sofka.Song.*;
 
+/**
+ * La clase Library tiene los atributos y metodos necesarios para manipular la biblioteca principal e implementa la
+ * interface IComparator.
+ *
+ * @version 1.00.00 2022-04-24
+ *
+ * @author Daniel Romero Cortes.
+ **/
 public abstract class Library implements IComparator{
     public ArrayList<Song> songs;
 
